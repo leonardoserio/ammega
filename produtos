@@ -1,0 +1,169 @@
+{
+  "catalogo_produtos": {
+    "empresa": "Grupo AMMEGA",
+    "data_atualizacao": "2025-07-17",
+    "moeda": "BRL",
+    "produtos": [
+      {
+        "id": "AMB-001",
+        "nome": "Correia Transportadora Food Grade FDA",
+        "marca": "Ammeraal Beltech",
+        "categoria": "correias_transportadoras",
+        "preco": 1245.50,
+        "quantidade_estoque": 150,
+        "unidade": "metro",
+        "especificacoes": {
+          "largura": "600mm",
+          "material": "PVC branco",
+          "certificacao": "FDA aprovado"
+        }
+      },
+      {
+        "id": "AMB-002",
+        "nome": "Correia Modular Plastic M2540",
+        "marca": "Ammeraal Beltech",
+        "categoria": "correias_modulares",
+        "preco": 917.75,
+        "quantidade_estoque": 89,
+        "unidade": "metro",
+        "especificacoes": {
+          "largura": "400mm",
+          "material": "polietileno",
+          "aplicacao": "logistica"
+        }
+      },
+      {
+        "id": "MEG-001",
+        "nome": "Correia Timing Belt MEGASYNC HTD",
+        "marca": "Megadyne",
+        "categoria": "correias_sincronizadoras",
+        "preco": 636.30,
+        "quantidade_estoque": 320,
+        "unidade": "peça",
+        "especificacoes": {
+          "comprimento": "1400mm",
+          "largura": "20mm",
+          "material": "neoprene reforçado"
+        }
+      },
+      {
+        "id": "MEG-002",
+        "nome": "V-Belt Isoran Classical A58",
+        "marca": "Megadyne",
+        "categoria": "correias_trapezoidais",
+        "preco": 217.85,
+        "quantidade_estoque": 450,
+        "unidade": "peça",
+        "especificacoes": {
+          "perfil": "A",
+          "comprimento": "1473mm",
+          "material": "borracha EPDM"
+        }
+      },
+      {
+        "id": "JAS-001",
+        "nome": "Mangueira Hidráulica SAE 100R2",
+        "marca": "Jason Industrial",
+        "categoria": "mangueiras_hidraulicas",
+        "preco": 45.45,
+        "quantidade_estoque": 2500,
+        "unidade": "metro",
+        "especificacoes": {
+          "diametro": "1/2 polegada",
+          "pressao": "4000 PSI",
+          "temperatura": "-40°C a +100°C"
+        }
+      },
+      {
+        "id": "JAS-002",
+        "nome": "Mangueira Industrial Multipurpose 4000",
+        "marca": "Jason Industrial",
+        "categoria": "mangueiras_industriais",
+        "preco": 63.00,
+        "quantidade_estoque": 1850,
+        "unidade": "metro",
+        "especificacoes": {
+          "diametro": "3/4 polegada",
+          "pressao": "300 PSI",
+          "aplicacao": "ar comprimido e água"
+        }
+      },
+      {
+        "id": "AMB-003",
+        "nome": "Correia Felt M1245 Antistática",
+        "marca": "Ammeraal Beltech",
+        "categoria": "correias_especiais",
+        "preco": 1625.00,
+        "quantidade_estoque": 75,
+        "unidade": "metro",
+        "especificacoes": {
+          "largura": "800mm",
+          "material": "felt antiestático",
+          "aplicacao": "eletrônicos"
+        }
+      },
+      {
+        "id": "MEG-003",
+        "nome": "Correia Plana Megaflat TPU",
+        "marca": "Megadyne",
+        "categoria": "correias_planas",
+        "preco": 341.20,
+        "quantidade_estoque": 200,
+        "unidade": "metro",
+        "especificacoes": {
+          "largura": "50mm",
+          "espessura": "2mm",
+          "material": "poliuretano termoplástico"
+        }
+      },
+      {
+        "id": "JAS-003",
+        "nome": "Mangueira Química Resistente 7200",
+        "marca": "Jason Industrial",
+        "categoria": "mangueiras_quimicas",
+        "preco": 95.25,
+        "quantidade_estoque": 980,
+        "unidade": "metro",
+        "especificacoes": {
+          "diametro": "1 polegada",
+          "resistencia": "ácidos e bases",
+          "temperatura": "-20°C a +80°C"
+        }
+      },
+      {
+        "id": "AMB-004",
+        "nome": "Correia Grip Top M1535",
+        "marca": "Ammeraal Beltech",
+        "categoria": "correias_inclinadas",
+        "preco": 1502.80,
+        "quantidade_estoque": 125,
+        "unidade": "metro",
+        "especificacoes": {
+          "largura": "500mm",
+          "angulo": "30° inclinação",
+          "superficie": "grip top rugosa"
+        }
+      }
+    ]
+  },
+  "resumo_estoque": {
+    "total_produtos": 10,
+    "valor_total_estoque": 1191345.28,
+    "produtos_baixo_estoque": 2,
+    "produtos_alto_estoque": 3
+  },
+  "alertas": {
+    "baixo_estoque": [
+      {
+        "produto": "AMB-003",
+        "quantidade": 75,
+        "limite_minimo": 100
+      },
+      {
+        "produto": "AMB-002",
+        "quantidade": 89,
+        "limite_minimo": 100
+      }
+    ]
+  }
+}
